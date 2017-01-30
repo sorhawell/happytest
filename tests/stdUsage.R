@@ -5,6 +5,7 @@ library(randomForest)
 obs=2000
 vars = 6 
 
+
 a=2
 
 #cdfhicefvldfvijdfvældfvdf
