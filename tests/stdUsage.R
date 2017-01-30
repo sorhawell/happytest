@@ -5,6 +5,10 @@ library(randomForest)
 obs=2000
 vars = 6 
 
+
+
+#cdfhicefvldfvijdfvældfvdf
+
 X = data.frame(replicate(vars,rnorm(obs)))
 Xtest = data.frame(replicate(vars,rnorm(obs)*3))
 Y = with(X, X1^2 + sin(X2*pi) + 2 * X3 * X4 + .5 * rnorm(obs))
